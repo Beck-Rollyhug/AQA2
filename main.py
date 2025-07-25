@@ -1,13 +1,14 @@
 
 from OOP.oop import CheckingAccount
 from Booker.test_booker import TestBookings
+from Playwright.test_front import start_front_test
 
 
 # Задание с ООП
-savingsAccount = CheckingAccount('Alex', 500)
-savingsAccount.withdraw(100)
-savingsAccount.test_balance()
-savingsAccount.apply_interest()
+# savingsAccount = CheckingAccount('Alex', 500)
+# savingsAccount.withdraw(100)
+# savingsAccount.test_balance()
+# savingsAccount.apply_interest()
 #
 
 # Задание с restful-booker
@@ -24,3 +25,6 @@ savingsAccount.apply_interest()
 # booker.test_get_booking_by_checkout_date()
 #
 
+# Задание с Playwright
+start_front_test()
+#
