@@ -6,3 +6,4 @@ AUTH_JSON = {
     "username": "admin",
     "password": "password123"
 }
+#

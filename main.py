@@ -5,14 +5,14 @@ from Playwright.test_front import start_front_test
 
 
 # Задание с ООП
-# savingsAccount = CheckingAccount('Alex', 500)
-# savingsAccount.withdraw(100)
-# savingsAccount.test_balance()
-# savingsAccount.apply_interest()
+savingsAccount = CheckingAccount('Alex', 500)
+savingsAccount.withdraw(100)
+savingsAccount.test_balance()
+savingsAccount.apply_interest()
 #
 
 # Задание с restful-booker
-# booker = TestBookings()
+booker = TestBookings()
 # booker.test_create_booking()
 # booker.test_update_booking()
 # booker.test_partial_update_booking()
