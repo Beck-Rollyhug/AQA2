@@ -20,7 +20,7 @@ from Playwright.test_front import start_front_test
 # task2()
 # task3()
 # task4()
-# task5()
+task5()
 # task6()
 # task7()
 # task8()

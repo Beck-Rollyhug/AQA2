@@ -1,8 +1,6 @@
 from typing import List
 from dataclasses import dataclass
 
-bugType = dict[int, str, int]
-
 
 @dataclass
 class Bug:
@@ -29,7 +27,7 @@ def task5():
 
     showBugs(bugs)
     action = input(
-        '\nshow - show bugs, \nb status s - change status "s" of bug with ID = "b"\ncommand: ')
+        '\n"show" \t\t - Show bugs \n"b status s" \t - Change status "s" of bug with ID = "b" \n\n Status:\n 0 \t - backlog \n 1 \t - in work \n 2 \t - test \n 3 \t - solved \ncommand: ')
 
     match action:
         case 'show':
