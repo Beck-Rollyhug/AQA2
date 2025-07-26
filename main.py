@@ -13,6 +13,7 @@ savingsAccount.apply_interest()
 
 # Задание с restful-booker
 booker = TestBookings()
+
 # booker.test_create_booking()
 # booker.test_update_booking()
 # booker.test_partial_update_booking()

@@ -1,5 +1,6 @@
 from playwright.sync_api import expect
 
+
 class BasePAge:
     __BASE_URL = 'https://www.saucedemo.com'
 
@@ -9,7 +10,7 @@ class BasePAge:
 
     def _get_full_url(self):
         return f"{self.__BASE_URL}/{self._endpoint}"
-    
+
     def navigate_to(self):
         full_url = self._get_full_url()
         self.page.goro(full_url)

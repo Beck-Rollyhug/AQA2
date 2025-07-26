@@ -2,6 +2,7 @@ from playwright.sync_api import sync_playwright
 
 BASE_URL = 'https://www.saucedemo.com/'
 
+
 def start_front_test():
     playwright = sync_playwright().start()
 
