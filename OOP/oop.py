@@ -1,6 +1,7 @@
 from math import floor
 import pytest
 
+
 class BankAccount:
     owner: str
     __balance: int
@@ -14,16 +15,16 @@ class BankAccount:
             self.__balance += amount
         else:
             raise ValueError
-        
+
     def withdraw(self, amount):
         if (self.__balance - amount > 0):
             self.__balance -= amount
         else:
             raise ValueError
-        
+
     def get_balance(self):
         return self.__balance
-    
+
 
 class SavingsAccount(BankAccount):
     interest_rate: float
@@ -48,8 +49,3 @@ class CheckingAccount(SavingsAccount):
     def test_balance(self):
         balance = self.get_balance()
         assert balance > 0, 'Баланс не положительный'
-
-
-
-
-
