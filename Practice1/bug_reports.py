@@ -1,19 +1,23 @@
-def showBugs(bugs, new = -1):
+def showBugs(bugs, new=-1):
     priority = ['low', 'medium', 'high']
     for i, bug in enumerate(bugs):
         print(f'Ошибка {i}, - {priority[bug]}{' (new)' if i == new else ''}')
+
 
 def addBug(priority, bugs):
     bugs.append(priority)
     return bugs
 
+
 def removeFirstLowBug(bugs):
     bugs.remove(0)
     return bugs
 
+
 def sortBugs(bugs):
     bugs.sort()
     return bugs
+
 
 def task4():
     # 0, 1, 2 = "low", "medium", "high"

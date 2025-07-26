@@ -13,8 +13,5 @@ def task2():
     if not tool:
         print('Не увидел инструмент, попробуй ещё раз')
         return
-    
+
     print(f'Отлично, {job} {name}, мне тоже нравится {tool} :)')
-
-
-
