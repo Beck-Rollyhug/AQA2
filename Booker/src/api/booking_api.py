@@ -46,6 +46,3 @@ class BookingAPI:
         get = self.auth_session.get(url)
         validate_response(delete, expected_status=201)
         validate_response(get, expected_status=404)
-
-        # assert delete.status_code == 201, f"Ошибка удаления данных {url}"
-        # assert get.status_code == 404, "Данные не удалились"
