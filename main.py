@@ -12,15 +12,16 @@ from Practice2.triangle_check import task9
 from Practice2.nested_functions import task10
 
 from OOP.oop import CheckingAccount
-from Booker.test_booker import TestBookings
+from Booker.tests.test_booking import TestBooking
 from Playwright.test_front import start_front_test
+from Booker.constant import BASE_URL
 
 # Базовые задания на Python
 # task1()
 # task2()
 # task3()
 # task4()
-task5()
+# task5()
 # task6()
 # task7()
 # task8()
@@ -36,17 +37,8 @@ task5()
 #
 
 # Задание с restful-booker
-# booker = TestBookings()
-# booker.test_create_booking()
-# booker.test_update_booking()
-# booker.test_partial_update_booking()
-# booker.test_get_booking()
-# booker.test_get_booking_by_fullname()
-# booker.test_get_booking_by_firstname()
-# booker.test_get_booking_by_lastname()
-# booker.test_get_booking_by_bookingdates()
-# booker.test_get_booking_by_checkin_date()
-# booker.test_get_booking_by_checkout_date()
+# booker = TestBooking(BASE_URL)
+# booker.test_all()
 #
 
 # Задание с Playwright
