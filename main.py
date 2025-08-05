@@ -14,6 +14,7 @@
 from python_basic.AQA_course.homework_functions.number_sum import numbers_sum
 from python_basic.AQA_course.homework_functions.multiplication_table import multiplication_table
 from python_basic.AQA_course.homework_functions.bubble_sort import sort_task
+from python_basic.AQA_course.homework_functions.more_functions import count_items
 
 from OOP.oop import CheckingAccount
 from Booker.tests.test_booking import TestBooking
@@ -23,7 +24,8 @@ from Booker.constant import BASE_URL
 
 # numbers_sum()
 # multiplication_table()
-sort_task()
+# sort_task()
+# count_items(1, 2, 3)
 
 # Базовые задания на Python
 # task1()
