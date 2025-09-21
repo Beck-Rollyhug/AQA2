@@ -1,4 +1,6 @@
 
+import pytest
+
 # from Practice1.basic_info import task1
 # from Practice1.user_profile import task2
 # from Practice1.test_case_stats import task3
@@ -17,13 +19,13 @@
 # from python_basic.AQA_course.homework_functions.more_functions import count_items
 # from python_basic.AQA_course.big_practice.strings import is_anagram, is_palindrome, format_phone_number, remove_duplicates, is_unique
 # from python_basic.AQA_course.big_practice.lists import remove_duplicates, generate_squares, merge_lists, is_sorted, sum_lists_elements
-from python_basic.AQA_course.big_practice.dicts import char_frequency, merge_dicts, dict_to_lists, group_by_first_letter, extract_subdict
-from python_basic.AQA_course.big_practice.sets import get_unique_elements, is_unique_list, get_unique_vowels
+# from python_basic.AQA_course.big_practice.dicts import char_frequency, merge_dicts, dict_to_lists, group_by_first_letter, extract_subdict
+# from python_basic.AQA_course.big_practice.sets import get_unique_elements, is_unique_list, get_unique_vowels
 
-from OOP.oop import CheckingAccount
-from Booker.tests.test_booking import TestBooking
-from Playwright.test_front import start_front_test
-from Booker.constant import BASE_URL
+# from OOP.oop import CheckingAccount
+# from Booker.tests.test_booking import TestBooking
+from Playwright.test_front import start_front_test, test_add_items_and_checkout
+# from Booker.constant import BASE_URL
 
 # print(is_anagram('abc', 'cab'))
 # print(is_palindrome('r ac car'))
@@ -50,10 +52,10 @@ from Booker.constant import BASE_URL
 # keys = ["a", "c"]
 # print(extract_subdict(my_dict, keys))  # {"a": 1, "c": 3}
 
-print(get_unique_elements([1, 2, 2, 3, 4, 4, 4, 5]))  # [1, 2, 3, 4, 5]
-print(is_unique_list([1, 2, 3, 4]))  # True
-print(is_unique_list([1, 2, 2, 3]))  # False
-print(get_unique_vowels("Hello World"))  # {'e', 'o'}
+# print(get_unique_elements([1, 2, 2, 3, 4, 4, 4, 5]))  # [1, 2, 3, 4, 5]
+# print(is_unique_list([1, 2, 3, 4]))  # True
+# print(is_unique_list([1, 2, 2, 3]))  # False
+# print(get_unique_vowels("Hello World"))  # {'e', 'o'}
 
 # numbers_sum()
 # multiplication_table()
@@ -86,5 +88,5 @@ print(get_unique_vowels("Hello World"))  # {'e', 'o'}
 #
 
 # Задание с Playwright
-# start_front_test()
+test_add_items_and_checkout()
 #
